@@ -1,0 +1,152 @@
+body {
+    margin: 0 auto;
+    background-color: #F3F8FF;
+}
+
+   /* Header Section Starts */
+
+.container {
+    max-width: 1000px;
+    height: auto;
+    background-color: white;
+    /* margin: auto; */
+}
+
+.logo-header {
+    width: 50%;
+    margin: 0 0 auto;
+    position: relative;
+}
+
+.Search-button {
+    padding: 20px 30px;
+    position: absolute;
+    margin-left: 700px;
+    bottom: 680px;
+}
+
+.Logo-img {
+    width: 150px;
+    height: 150px;
+    padding: auto;
+    margin-left: 15px;
+}
+
+.navbar {
+    margin: 0 -10px;
+}
+
+.nav-link {
+    color: white;
+}
+         /* Header Section End */
+
+
+
+/* Banner Section Starts*/
+
+#banner-section {
+    
+}
+
+.carousel-inner {
+    padding: 3% 17%;
+    text-align: center;
+}
+
+.dental-img {
+    width: 700px;
+    height: auto;
+}
+
+         /* Banner Section End */
+
+h1, h2, h3 {
+    color: black;
+}
+
+p {
+    color: black;
+    line-height: 2rem;
+}
+
+         /* About Us Section */
+
+#about-us {
+    padding: 30px 17%;
+    text-align: center;
+    /* background-color: #3AA6B9; */
+}
+
+/* hr {
+    border: dotted #93B1A6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 90px auto 40px auto;
+} */
+
+.hr-img {
+    width: 30%;
+    padding: 30px 0;
+}
+
+hr {
+    border: none;
+    margin: 50px auto;
+  }
+  hr::before {
+    content: '🦷🪥🦷🪥🦷 ';
+    display: block;
+    text-align: center;
+  }
+
+    /* Booking Appointment Section */
+
+.booking-container {
+    padding: 3% 17%;
+}    
+
+.booking-appointment {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-md-6 {
+    /* padding: 5px 5px; */
+}
+
+.well-block {
+    background-color: #fff;
+    border: 1px solid #e9e6e8;
+    padding: 7% 15%;
+}
+
+.well-title {
+    margin-bottom: 40px;
+}
+
+.btn-success {
+    margin-top: 20px;
+}
+
+     /* Footer Section */
+  
+#footer {
+    padding: 3% 15%;
+    text-align: center;
+    background-color: teal;
+}
+
+.fa-lg {
+    padding: 50px 20px;
+}
+
+.copyright-text {
+    color: white;
+}
+
+@media (max-width: 576px) {
+    body {
+        margin: auto;
+    }
+}
